@@ -1,0 +1,5 @@
+--------------------
+DEBUG INFORMATION FOR MD2 MODEL: media/models/sydney.md2
+--------------------
+
+Error: couldn't open "media/models/sydney.md2"!

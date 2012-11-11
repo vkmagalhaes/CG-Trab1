@@ -1,0 +1,41 @@
+--------------------
+DEBUG INFORMATION FOR MD2 MODEL: media/models/sydney/sydney.md2
+--------------------
+
+File Validated with sucess, reading the header data...ok
+Reading Model Texture data...
+Trying to load "media/models/sydney/sydney.bmp"...OK!
+Reading Model BumpMap data...
+Trying to load "media/models/sydney/sydney_normal.bmp"...no
+Trying to load "media/models/sydney/sydney_normal.png"...no
+Trying to load "media/models/sydney/sydney_normal.jpg"...no
+Trying to load "media/models/sydney/sydney_normal.tga"...no
+Trying to load "media/models/sydney/sydney_normal.pcx"...no
+Could not find any supported Bump Map Image File.
+Reading Model HeightMap data...
+Trying to load "media/models/sydney/sydney_height.bmp"...no
+Trying to load "media/models/sydney/sydney_height.png"...no
+Trying to load "media/models/sydney/sydney_height.jpg"...no
+Trying to load "media/models/sydney/sydney_height.tga"...no
+Trying to load "media/models/sydney/sydney_height.pcx"...no
+Could not find any supported Bump Map Image File.
+Extracting Texels...ok
+Extracting Triangles...ok
+Extracting Frames...ok
+Generating Normals...ok
+Configuring the Animation Table...ok
+Success!
+
+-----------------
+Final Model Status:
+-----------------
+vertex: 	4104 byte(s)
+normals: 	4104 byte(s)
+texcoords: 	5472 byte(s)
+triangles: 	27160 byte(s)
+TBN Space? 	Yes
+Textures: 	Decal 
+TOTAL: 		39.883 Kbyte(s)
+
+----------------------------------
+

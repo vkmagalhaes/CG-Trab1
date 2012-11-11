@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1352387990 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\main.cpp
+	<URGE/URGE.h>
+	<iostream>
+	"Fireball2.h"
+
+1352659825 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\fireball2.h
+	<URGE/URGE.h>
+
+1352659801 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\fireball2.cpp
+	"Fireball2.h"
+
