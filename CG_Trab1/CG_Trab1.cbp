@@ -36,6 +36,8 @@
 			<Add library="glee" />
 			<Add library="URGEext" />
 		</Linker>
+		<Unit filename="Fireball2.cpp" />
+		<Unit filename="Fireball2.h" />
 		<Unit filename="logs\log.log" />
 		<Unit filename="main.cpp" />
 		<Unit filename="shader_bin\blr.shd" />
