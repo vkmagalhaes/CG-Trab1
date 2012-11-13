@@ -109,7 +109,7 @@ URGE_BEGIN
     light.intensity(0.7);
     light.direction(-1,1,-1);
 
-    terrain.load("media/terrain/heightmap2.jpg",1, 45, 255,255,"media/tex/dirt.jpg");
+    terrain.load("media/terrain/heightmap2.jpg",1, 20, 255,255,"media/tex/dirt.jpg");
     terrain.specular(0.3);
     terrain.ambient(0.4);
     terrain.texture().scale(30);
