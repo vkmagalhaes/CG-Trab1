@@ -1,0 +1,68 @@
+----------------------------------------------
+URGE
+SHADER COMPILER DEBUG INFO
+----------------------------------------------
+OpenGL Version: 3.3
+Using GLSL native routines. 
+
+----------------------------------------------
+Vertex Log:
+----------------------------------------------
+No errors.
+
+GL Warning: enumerador inválido
+----------------------------------------------
+Pixel Log:
+----------------------------------------------
+WARNING: 542:1: 'assing' : implict conversion between types allowed from GLSL 1.20 
+
+No errors.
+
+GL Warning: operação inválida
+----------------------------------------------
+Linkage Log:
+----------------------------------------------
+
+The shader has been compiled and linked with Success.
+
+
+----------------------------------------------
+Attribute Debugs:
+----------------------------------------------
+attribute 0: 
+name: gl_Vertex
+length: 9
+size: 1
+type:vec4
+-----
+attribute 1: 
+name: gl_Normal
+length: 9
+size: 1
+type:vec3
+-----
+attribute 2: 
+name: gl_Color
+length: 8
+size: 1
+type:vec4
+-----
+attribute 3: 
+name: gl_MultiTexCoord0
+length: 17
+size: 1
+type:vec4
+-----
+attribute 4: 
+name: tangent
+length: 7
+size: 1
+type:vec3
+-----
+attribute 5: 
+name: binormal
+length: 8
+size: 1
+type:vec3
+-----
+-

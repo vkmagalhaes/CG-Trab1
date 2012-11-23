@@ -36,10 +36,7 @@
 			<Add library="glee" />
 			<Add library="URGEext" />
 		</Linker>
-		<Unit filename="Fireball2.cpp" />
-		<Unit filename="Fireball2.h" />
 		<Unit filename="logs\log.log" />
-		<Unit filename="main.cpp" />
 		<Unit filename="shader_bin\blr.shd" />
 		<Unit filename="shader_bin\bph.shd" />
 		<Unit filename="shader_bin\cel.shd" />
@@ -51,6 +48,19 @@
 		<Unit filename="shader_bin\ocd.shd" />
 		<Unit filename="shader_bin\ocf.shd" />
 		<Unit filename="shader_bin\pho.shd" />
+		<Unit filename="src\Cartucho.cpp" />
+		<Unit filename="src\Constantes.h" />
+		<Unit filename="src\Municao.cpp" />
+		<Unit filename="src\Player.cpp" />
+		<Unit filename="src\Player.h" />
+		<Unit filename="src\Wave.cpp" />
+		<Unit filename="src\Zumbi.cpp" />
+		<Unit filename="src\Zumbi.h" />
+		<Unit filename="src\bibliotecas.h" />
+		<Unit filename="src\cartucho.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\municao.h" />
+		<Unit filename="src\wave.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
