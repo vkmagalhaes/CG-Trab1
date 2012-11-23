@@ -20,8 +20,8 @@ Player::Player()
     label(LABEL_PLAYER);
     linearSpeed(2.0);
 
-    sfx.load("media/sfx/choir.wav");
-    sfx.play();
+    //sfx.load("media/sfx/choir.wav");
+    //sfx.play();
 
 }
 
@@ -37,8 +37,7 @@ int Player::collide(Object &other)
 
             if (life <= 0)
             {
-                control().disableAll();
-                disableMouse();
+                die();
             }
         }
     }
@@ -58,5 +57,12 @@ int Player::isDead()
     if (life<=0)
         return 1;
     return 0;
+}
+
+GuiSprite* Player::getLifeBar(){
+    return &lifebar;
+}
+GuiSprite* Player::getLifeBarEmpty(){
+    return &lifebar_empty;
 }
 

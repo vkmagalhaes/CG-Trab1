@@ -12,11 +12,10 @@ URGE_BEGIN
     gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, DEFERRED_SHADING | WINDOWED | SHADER_LOG, "URGE TEST");
 
     //DECLARAÇÕES
-    int i;
+    int gameOver = 0;
     Player player;
     Scenario cenario;
     Wave wave;
-    Zumbi *zumbis = wave.getZumbis();
     Sky sky;
     Light light;
     Terrain terrain;
@@ -52,8 +51,8 @@ URGE_BEGIN
     cenario.glowNullNormalSurfacesRatio(0.6);
     cenario.prepare();
     Display disp;
-    disp.insert(player.lifebar_empty);
-    disp.insert(player.lifebar);
+    disp.insert(*player.getLifeBarEmpty() );
+    disp.insert(*player.getLifeBar() );
 
 
 
@@ -62,14 +61,17 @@ URGE_BEGIN
     {
         if (Keyboard::hit(Keyboard::ESC)) break;
 
-        if (player.isDead()){
+        if (gameOver){
             Text::write((LARGURA_TELA/2)-20,(ALTURA_TELA/2)-5,"%s","GAME OVER");
-            for(i=0 ; i< NUM_ZUMBIS ; i++){ zumbis[i].changeAnimation(Animation::NONE); }
         }else{
             Text::write((LARGURA_TELA/2)-3,(ALTURA_TELA/2)-5,"%s","+");
             player.update();
             wave.update(player);
             cartucho.update(player);
+            if ( player.isDead() ){
+                gameOver = 1;
+                wave.gameOver();
+            }
         }
         cenario.update();
         disp.update();

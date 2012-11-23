@@ -13,12 +13,14 @@ public:
     int collide(Object &other);
     int isDead();
     void update();
-    GuiSprite lifebar;
-    GuiSprite lifebar_empty;
+    GuiSprite* getLifeBar();
+    GuiSprite* getLifeBarEmpty();
+
 private:
     int life;
     Sound sfx;
-
+    GuiSprite lifebar;
+    GuiSprite lifebar_empty;
 };
 
 

@@ -12,6 +12,7 @@ public:
     int collide(Object &other);
     void update();
     void insertCenario(Scenario &cenario);
+    void disappear();
 };
 
 #endif // ZUMBI_H

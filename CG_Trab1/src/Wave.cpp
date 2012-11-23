@@ -67,3 +67,9 @@ void Wave::insertCenario(Scenario &cenario){
         zumbis[i].insertCenario(cenario);
     }
 }
+
+void Wave::gameOver(){
+    for(i=0 ; i< NUM_ZUMBIS ; i++){
+        zumbis[i].disappear();
+    }
+}

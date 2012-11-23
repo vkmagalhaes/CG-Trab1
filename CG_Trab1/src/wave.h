@@ -13,6 +13,7 @@ class Wave
         Zumbi* getZumbis();
         Array setPos(Player &player);
         void insertCenario(Scenario &cenario);
+        void gameOver();
     private:
         Zumbi zumbis[NUM_ZUMBIS];
         int i;

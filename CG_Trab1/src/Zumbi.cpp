@@ -21,12 +21,16 @@ int Zumbi::collide(Object &other)
 {
     if (other.label() == LABEL_MUNICAO)
     {
-        visible(false);
-        inactiveBody();
+        disappear();
     }
     return 1;
 }
 
 void Zumbi::insertCenario(Scenario &cenario){
     cenario.insert(*this);
+}
+
+void Zumbi::disappear(){
+    visible(false);
+    inactiveBody();
 }

@@ -6,7 +6,7 @@ Municao::Municao()
     changeBoundingVolume(Solid::SPHERE);
     label(LABEL_MUNICAO);
     scale(1.0);
-    body().gravityScale(0.001);
+    //body().gravityScale(0.001);
     body().damping(0.0);
 
     light.color(255,180,60);
@@ -14,7 +14,6 @@ Municao::Municao()
     light.attenuation(0.4);
     light.quadraticAttenuation(0.01);
 
-    visible(false);
     disappear();
 
     bala.generate(Particle::GLOW);
@@ -68,6 +67,7 @@ void Municao::disappear()
 {
     light.intensity(0.0);
     timer = 0;
+    visible(false);
     inactiveBody();
     bala.stop();
 }
