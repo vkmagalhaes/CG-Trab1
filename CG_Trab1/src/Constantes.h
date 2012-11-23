@@ -12,6 +12,6 @@
 #define NUM_BALAS       10
 #define NUM_ZUMBIS      50
 #define VELOCIDADE_ZUMBI 200.0
-#define VELOCIDADE_BALA  820.0
+#define VELOCIDADE_BALA  80.0
 
 #endif // CONSTANTES_H

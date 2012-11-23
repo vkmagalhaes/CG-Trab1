@@ -6,7 +6,7 @@ Municao::Municao()
     changeBoundingVolume(Solid::SPHERE);
     label(LABEL_MUNICAO);
     scale(1.0);
-    //body().gravityScale(0.001);
+    body().gravityScale(0.0);
     body().damping(0.0);
 
     light.color(255,180,60);
