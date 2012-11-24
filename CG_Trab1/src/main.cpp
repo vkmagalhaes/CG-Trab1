@@ -9,7 +9,7 @@
 
 URGE_BEGIN
 {
-    gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, DEFERRED_SHADING | WINDOWED | SHADER_LOG, "URGE TEST");
+    gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, WINDOWED | NO_SHADER, "URGE TEST");
 
     //DECLARAÇÕES
     int gameOver = 0;
@@ -30,7 +30,7 @@ URGE_BEGIN
 
     light.directional();
     light.color(240,170,80);
-    light.intensity(1.7);
+    light.intensity(0.2);
     light.direction(0,100,0);
 
     if (sky.loadTexture("media/sky/cloudy") != TEXTURE_LOAD_SUCCESS)
@@ -41,13 +41,12 @@ URGE_BEGIN
 	}
 
     // inserindo os objetos no cenario
-    cenario.insert(player);
     cenario.insert(sky);
     wave.insertCenario(cenario);
     cenario.insert(terrain);
     cenario.insert(light);
     cartucho.insertCenario(cenario);
-
+    player.insertCenario(cenario);
     cenario.glowNullNormalSurfacesRatio(0.6);
     cenario.prepare();
     Display disp;

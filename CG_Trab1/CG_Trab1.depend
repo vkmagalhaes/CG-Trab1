@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353691004 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353730307 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -43,7 +43,7 @@
 1353690963 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
-1353624930 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
+1353691712 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
 	"municao.h"
 
 1353624601 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.h
@@ -51,15 +51,15 @@
 	"Constantes.h"
 	"Player.h"
 
-1353690182 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353729350 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353690140 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
+1353726461 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
 	"bibliotecas.h"
 	"Constantes.h"
 	<iostream>
 
-1353690963 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353726593 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
 1353690963 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.h

@@ -19,7 +19,17 @@ Player::Player()
 
     label(LABEL_PLAYER);
     linearSpeed(2.0);
+    //limita a visao do player a esse angulo
+    humanView(70.0);
+    mouseSensibility(0.8);
 
+    lanterna.color(240,170,80);
+    lanterna.intensity(5.0);
+    lanterna.spot();
+    lanterna.spotAngle(70);
+    lanterna.attenuation(0.2);
+    lanterna.quadraticAttenuation(0.05);
+    lanterna.spotAttenuation(8);
     //sfx.load("media/sfx/choir.wav");
     //sfx.play();
 
@@ -47,10 +57,12 @@ int Player::collide(Object &other)
 void Player::die(){
     control().disableAll();
     disableMouse();
+    lanterna.intensity(0.0);
 }
 
 void Player::update(){
-
+    lanterna.position() = position();
+    lanterna.direction() = direction();
 };
 int Player::isDead()
 {
@@ -66,3 +78,7 @@ GuiSprite* Player::getLifeBarEmpty(){
     return &lifebar_empty;
 }
 
+void Player::insertCenario(Scenario &cenario){
+    cenario.insert(*this);
+    cenario.insert(lanterna);
+}

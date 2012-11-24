@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="src\Cartucho.cpp" open="1" top="0" tabpos="8">
+	<File name="src\Cartucho.cpp" open="1" top="0" tabpos="9">
 		<Cursor position="701" topLine="7" />
 	</File>
-	<File name="src\Constantes.h" open="1" top="0" tabpos="3">
-		<Cursor position="399" topLine="0" />
+	<File name="src\Constantes.h" open="1" top="0" tabpos="4">
+		<Cursor position="398" topLine="0" />
 	</File>
-	<File name="src\Municao.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="1212" topLine="42" />
+	<File name="src\Municao.cpp" open="1" top="1" tabpos="6">
+		<Cursor position="175" topLine="0" />
 	</File>
-	<File name="src\Player.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="516" topLine="17" />
+	<File name="src\Player.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1453" topLine="40" />
 	</File>
-	<File name="src\Player.h" open="1" top="1" tabpos="9">
-		<Cursor position="87" topLine="0" />
+	<File name="src\Player.h" open="1" top="0" tabpos="2">
+		<Cursor position="161" topLine="0" />
 	</File>
-	<File name="src\Wave.cpp" open="1" top="0" tabpos="7">
-		<Cursor position="227" topLine="0" />
+	<File name="src\Wave.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="2051" topLine="45" />
 	</File>
-	<File name="src\Zumbi.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="718" topLine="39" />
+	<File name="src\Zumbi.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="646" topLine="8" />
 	</File>
 	<File name="src\Zumbi.h" open="1" top="0" tabpos="10">
-		<Cursor position="336" topLine="0" />
+		<Cursor position="266" topLine="0" />
 	</File>
 	<File name="src\cartucho.h" open="1" top="0" tabpos="12">
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="src\main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="2012" topLine="53" />
+		<Cursor position="1719" topLine="0" />
 	</File>
 	<File name="src\municao.h" open="1" top="0" tabpos="11">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src\wave.h" open="1" top="0" tabpos="6">
-		<Cursor position="385" topLine="0" />
+	<File name="src\wave.h" open="1" top="0" tabpos="7">
+		<Cursor position="349" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

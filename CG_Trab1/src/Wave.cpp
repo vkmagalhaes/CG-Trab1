@@ -21,7 +21,7 @@ void Wave::update(Player &player){
     }
     for(i=0 ; i< (NUM_ZUMBIS-(NUM_ZUMBIS-nivel*10)) ; i++){
         if (zumbis[i].bodyBehavior() == Object::ACTIVE){
-            if ((player.position() - zumbis[i].position()).length() < 5.0)
+            if ((player.position() - zumbis[i].position()).length() < 3.0)
             {
                 if (zumbis[i].graphic().getCurrentAnimation() != Animation::TAUNT02)
                 {

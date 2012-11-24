@@ -15,12 +15,13 @@ public:
     void update();
     GuiSprite* getLifeBar();
     GuiSprite* getLifeBarEmpty();
-
+    void insertCenario(Scenario &cenario);
 private:
     int life;
     Sound sfx;
     GuiSprite lifebar;
     GuiSprite lifebar_empty;
+    Light lanterna;
 };
 
 
