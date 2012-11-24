@@ -77,3 +77,71 @@
 1353625419 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
+1353683735 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
+	"cartucho.h"
+
+1353683735 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"Player.h"
+	"municao.h"
+
+1353694991 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\bibliotecas.h
+	<URGE/URGE.h>
+	<time.h>
+
+1353696498 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
+	"bibliotecas.h"
+
+1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.h
+	"bibliotecas.h"
+	"Constantes.h"
+	<iostream>
+
+1353683735 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"Player.h"
+
+1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.cpp
+	"municao.h"
+
+1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
+	"Player.h"
+
+1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+	"wave.h"
+
+1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"Zumbi.h"
+	"Player.h"
+
+1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.h
+	"bibliotecas.h"
+	"Constantes.h"
+
+1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+	"Zumbi.h"
+
+1353701836 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\main.cpp
+	"bibliotecas.h"
+	<iostream>
+	"Constantes.h"
+	"Zumbi.h"
+	"municao.h"
+	"Player.h"
+	"wave.h"
+	"cartucho.h"
+	"frameRateMonitor.h"
+
+1353702109 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.cpp
+	"frameRateMonitor.h"
+
+1353701673 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.h
+	"bibliotecas.h"
+	"Constantes.h"
+
+1353697821 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
+

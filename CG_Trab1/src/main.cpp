@@ -6,6 +6,7 @@
 #include "Player.h"
 #include "wave.h"
 #include "cartucho.h"
+#include "frameRateMonitor.h"
 
 URGE_BEGIN
 {
@@ -13,6 +14,7 @@ URGE_BEGIN
 
     //DECLARAÇÕES
     int gameOver = 0;
+    float deltaTime;
     Player player;
     Scenario cenario;
     Wave wave;
@@ -21,6 +23,7 @@ URGE_BEGIN
     Terrain terrain;
     Texture texturaDoTerreno;
     Cartucho cartucho;
+    FrameRateMonitor frameMonitor;
 
     //CARREGANDO COISAS
     terrain.load("media/terrain/heightmap6.jpg",0, 50, 255,255,"media/tex/dirt.jpg");
@@ -53,8 +56,6 @@ URGE_BEGIN
     disp.insert(*player.getLifeBarEmpty() );
     disp.insert(*player.getLifeBar() );
 
-
-
     //LOOP DO JOGO
     do
     {
@@ -64,6 +65,7 @@ URGE_BEGIN
             Text::write((LARGURA_TELA/2)-20,(ALTURA_TELA/2)-5,"%s","GAME OVER");
         }else{
             Text::write((LARGURA_TELA/2)-3,(ALTURA_TELA/2)-5,"%s","+");
+
             player.update();
             wave.update(player);
             cartucho.update(player);

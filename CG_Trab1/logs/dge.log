@@ -2,19 +2,21 @@
 URGE
 SHADER COMPILER DEBUG INFO
 ----------------------------------------------
-OpenGL Version: 3.3
+OpenGL Version: 2.1
 Using GLSL native routines. 
 
 ----------------------------------------------
 Vertex Log:
 ----------------------------------------------
 No errors.
-
 GL Warning: enumerador inválido
 ----------------------------------------------
 Pixel Log:
 ----------------------------------------------
 No errors.
-
 GL Warning: operação inválida
+----------------------------------------------
+Linkage Log:
+----------------------------------------------
+
 Error: Program linkage Error.

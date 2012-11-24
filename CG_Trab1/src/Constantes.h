@@ -13,5 +13,7 @@
 #define NUM_ZUMBIS      50
 #define VELOCIDADE_ZUMBI 200.0
 #define VELOCIDADE_BALA  80.0
+#define SCORE_PER_SEC       10
+#define SCORE_ZOMBIE_KILL   500
 
 #endif // CONSTANTES_H
