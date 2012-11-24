@@ -5,6 +5,7 @@
 #include "Constantes.h"
 #include "Player.h"
 #include "municao.h"
+#include "score.h"
 
 class Cartucho
 {

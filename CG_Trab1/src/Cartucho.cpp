@@ -33,3 +33,4 @@ void Cartucho::insertCenario(Scenario &cenario){
         balas[i].insertCenario(cenario);
     }
 }
+

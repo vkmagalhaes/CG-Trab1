@@ -81,39 +81,41 @@
 
 1353625419 D
 
-1353683735 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
+1353796007 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
-1353683735 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.h
+1353796034 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
 	"municao.h"
+	"score.h"
 
-1353694991 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\bibliotecas.h
+1353778246 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\bibliotecas.h
 	<URGE/URGE.h>
 	<time.h>
 
-1353696498 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353790117 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
-1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.h
+1353778241 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.h
 	"bibliotecas.h"
 	"Constantes.h"
 	<iostream>
 
-1353683735 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.h
+1353796023 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
+	"score.h"
 
-1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.cpp
+1353796064 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.cpp
 	"municao.h"
 
-1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353784589 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353778241 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
 1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
@@ -126,10 +128,10 @@
 	"bibliotecas.h"
 	"Constantes.h"
 
-1353691884 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353796072 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
-1353701836 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353796730 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -138,16 +140,18 @@
 	"Player.h"
 	"wave.h"
 	"cartucho.h"
+	"score.h"
+	"obstaculos.h"
+
+1353778246 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.cpp
 	"frameRateMonitor.h"
 
-1353702109 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.cpp
-	"frameRateMonitor.h"
-
-1353701673 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.h
+1353778246 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.h
 	"bibliotecas.h"
 	"Constantes.h"
 
-1353697821 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
+1353796647 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
+	"score.h"
 
 1353779268 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
@@ -157,4 +161,15 @@
 	"Constantes.h"
 
 1353777596 ei obstaculos e to passando heightmap
+
+1353784589 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+	"obstaculos.h"
+
+1353784589 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
+	"bibliotecas.h"
+	"Constantes.h"
+
+1353791491 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.h
+	"bibliotecas.h"
+	"Constantes.h"
 

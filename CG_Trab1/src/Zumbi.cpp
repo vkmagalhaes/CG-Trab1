@@ -22,6 +22,7 @@ int Zumbi::collide(Object &other)
     if (other.label() == LABEL_MUNICAO)
     {
         disappear();
+        //other.hit(0);
     }
     return 1;
 }

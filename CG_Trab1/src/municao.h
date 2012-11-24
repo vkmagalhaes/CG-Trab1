@@ -4,6 +4,7 @@
 #include "bibliotecas.h"
 #include "Constantes.h"
 #include "Player.h"
+#include "score.h"
 
 
 class Municao : public Generic

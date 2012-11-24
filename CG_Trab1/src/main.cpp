@@ -6,7 +6,7 @@
 #include "Player.h"
 #include "wave.h"
 #include "cartucho.h"
-//#include "frameRateMonitor.h"
+#include "score.h"
 #include "obstaculos.h"
 
 URGE_BEGIN
@@ -24,6 +24,7 @@ URGE_BEGIN
     Terrain terrain;
     Texture texturaDoTerreno;
     Cartucho cartucho;
+    Score score;
 
     //FrameRateMonitor frameMonitor;
 
@@ -75,6 +76,9 @@ URGE_BEGIN
             player.update();
             wave.update(player);
             cartucho.update(player);
+            if (Keyboard::hit(Keyboard::K)) score.addKill();
+            if (Keyboard::hit(Keyboard::L)) score.addHeadShot();
+            score.update();
             if ( player.isDead() ){
                 gameOver = 1;
                 wave.gameOver();
