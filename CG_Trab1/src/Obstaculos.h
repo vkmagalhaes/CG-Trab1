@@ -10,7 +10,7 @@ class Obstaculos
         void insertCenario(Scenario &cenario);
 
     private:
-        Generic objeto,objeto2,objeto3;
+        Generic objeto,objeto2,objeto3,objeto4,objeto5,objeto6,objeto7;
 
 };
 

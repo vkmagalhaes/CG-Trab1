@@ -22,6 +22,7 @@ private:
     GuiSprite lifebar;
     GuiSprite lifebar_empty;
     Light lanterna;
+    int lanternaLigada;
 };
 
 

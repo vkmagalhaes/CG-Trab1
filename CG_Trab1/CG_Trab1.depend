@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353777677 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353791513 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -53,10 +53,10 @@
 	"Constantes.h"
 	"Player.h"
 
-1353779268 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353790977 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353726461 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
+1353790409 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
 	"bibliotecas.h"
 	"Constantes.h"
 	<iostream>
@@ -153,10 +153,10 @@
 1353796647 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
-1353779268 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353792330 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
-1353779268 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
+1353793523 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
 	"bibliotecas.h"
 	"Constantes.h"
 

@@ -22,7 +22,6 @@ URGE_BEGIN
     Sky sky;
     Light light;
     Terrain terrain;
-    Texture texturaDoTerreno;
     Cartucho cartucho;
     Score score;
 
@@ -31,10 +30,11 @@ URGE_BEGIN
     Obstaculos obstaculos;
 
     //CARREGANDO COISAS
-    terrain.load("media/terrain/heightmap7Fechado.jpg",0, 100,LARGURA_TERRENO,COMPRIMENTO_TERRENO,"media/tex/ForestTerrain.jpg");
+    terrain.load("media/terrain/heightmap7Fechado.jpg",0, 100,LARGURA_TERRENO,COMPRIMENTO_TERRENO,"media/tex/grass.jpg");
     terrain.specular(0.3);
     terrain.ambient(0.4);
-    terrain.texture().scale(30);
+    terrain.texture().scale(50);
+    terrain.loadNormalMap("media/tex/bumpy_normal.bmp");
 
     light.directional();
     light.color(240,170,80);

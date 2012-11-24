@@ -19,10 +19,12 @@ Player::Player()
 
     label(LABEL_PLAYER);
     linearSpeed(2.0);
-    //limita a visao do player a esse angulo
+    //limita a visao vertical do player a esse angulo
     humanView(70.0);
     mouseSensibility(0.6);
 
+    //LANTERNA
+    lanternaLigada = 0;
     lanterna.color(240,170,80);
     lanterna.intensity(5.0);
     lanterna.spot();
@@ -61,8 +63,21 @@ void Player::die(){
 }
 
 void Player::update(){
-    lanterna.position() = position();
-    lanterna.direction() = direction();
+    if (Keyboard::hit(Keyboard::L)){
+        if (lanternaLigada){
+            lanterna.intensity(0.0);
+            lanternaLigada = 0;
+        }
+        else{
+
+            lanterna.intensity(5.0);
+            lanternaLigada = 1;
+        }
+    }
+    if(lanternaLigada){
+        lanterna.position() = position();
+        lanterna.direction() = direction();
+    }
 };
 int Player::isDead()
 {
