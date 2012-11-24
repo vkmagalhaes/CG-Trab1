@@ -6,7 +6,8 @@
 #include "Player.h"
 #include "wave.h"
 #include "cartucho.h"
-#include "frameRateMonitor.h"
+//#include "frameRateMonitor.h"
+#include "obstaculos.h"
 
 URGE_BEGIN
 {
@@ -23,17 +24,20 @@ URGE_BEGIN
     Terrain terrain;
     Texture texturaDoTerreno;
     Cartucho cartucho;
-    FrameRateMonitor frameMonitor;
+
+    //FrameRateMonitor frameMonitor;
+
+    Obstaculos obstaculos;
 
     //CARREGANDO COISAS
-    terrain.load("media/terrain/heightmap6.jpg",0, 50, 255,255,"media/tex/dirt.jpg");
+    terrain.load("media/terrain/heightmap7Fechado.jpg",0, 100,LARGURA_TERRENO,COMPRIMENTO_TERRENO,"media/tex/ForestTerrain.jpg");
     terrain.specular(0.3);
     terrain.ambient(0.4);
     terrain.texture().scale(30);
 
     light.directional();
     light.color(240,170,80);
-    light.intensity(0.2);
+    light.intensity(0.9);
     light.direction(0,100,0);
 
     if (sky.loadTexture("media/sky/cloudy") != TEXTURE_LOAD_SUCCESS)
@@ -50,6 +54,8 @@ URGE_BEGIN
     cenario.insert(light);
     cartucho.insertCenario(cenario);
     player.insertCenario(cenario);
+    obstaculos.insertCenario(cenario);
+
     cenario.glowNullNormalSurfacesRatio(0.6);
     cenario.prepare();
     Display disp;

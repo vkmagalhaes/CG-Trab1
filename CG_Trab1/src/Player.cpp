@@ -11,7 +11,7 @@ Player::Player()
     lifebar_empty.position(10 + lifebar_empty.width()/2,10 + lifebar_empty.height()/2);
     activeBody();
     position(100,0,80);
-    scale(1.0);
+    scale(1.4);
     changeKey("Forward", Input::Keyboard::UP);
     changeKey("Left", Input::Keyboard::LEFT);
     changeKey("Right", Input::Keyboard::RIGHT);
@@ -21,7 +21,7 @@ Player::Player()
     linearSpeed(2.0);
     //limita a visao do player a esse angulo
     humanView(70.0);
-    mouseSensibility(0.8);
+    mouseSensibility(0.6);
 
     lanterna.color(240,170,80);
     lanterna.intensity(5.0);
