@@ -86,12 +86,16 @@
 1353798384 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
+<<<<<<< HEAD
 1353808215 D
+=======
+1353810721 D
+>>>>>>> Cartucho recarrega automaticamente ao acabar
 
-1353796007 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
+1353882776 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
-1353796034 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.h
+1353882766 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
@@ -103,7 +107,7 @@
 	<time.h>
 	<list>
 
-1353872939 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353881057 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353869641 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -123,7 +127,7 @@
 1353872939 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353876683 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353880181 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
 1353879972 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
@@ -173,7 +177,7 @@
 
 1353777596 ei obstaculos e to passando heightmap
 
-1353872936 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353880177 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
 1353869641 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
@@ -196,13 +200,20 @@
 
 1353808215 
 
+<<<<<<< HEAD
 1353863344 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
+=======
+1353872939 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
+>>>>>>> Cartucho recarrega automaticamente ao acabar
 
 1353870621 ore ja ta aceitavel
 
 1353872939 e Finalizada. Pool de Zumbis
+<<<<<<< HEAD
 
 1353870621 a arvore
+=======
+>>>>>>> Cartucho recarrega automaticamente ao acabar
 	"SpawnPoint.h"
 
 1353872939 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
@@ -216,11 +227,16 @@
 
 1353810721 e com suspiro aumentando a dificuldade
 
+<<<<<<< HEAD
 1353874273 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
+=======
+1353870621 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
+>>>>>>> Cartucho recarrega automaticamente ao acabar
 	"bibliotecas.h"
 	"Constantes.h"
 	"Zumbi.h"
 
+<<<<<<< HEAD
 1353779266 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.cpp
 	"frameRateMonitor.h"
 
@@ -231,3 +247,5 @@
 1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
 	"SpawnPoint.h"
 
+=======
+>>>>>>> Cartucho recarrega automaticamente ao acabar
