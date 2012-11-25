@@ -5,27 +5,28 @@ Obstaculos::Obstaculos()
 
     objeto.load("media/models/eagle/eagle.md2");
     objeto.staticBody();
-    objeto.position(80,1,80);
+    objeto.position(80,0.5,80);
+    objeto.graphic().changeAnimation(Animation::RUN);
 
     objeto2.load("media/models/plant/plant2.md2");
     objeto2.staticBody();
     objeto2.scale(2.0);
-    objeto2.graphic().rotate(30,0,0,1);
-    //objeto2.direction(0,0,1);
-    objeto2.position(86,1,81);
+    //objeto2.graphic().rotate(90,0,0,1);
+    objeto2.direction(-0.5,-0.5,-1);
+    objeto2.position(83.7,4.3,80);
 
     objeto4.load("media/models/plant/plant2.md2");
     objeto4.staticBody();
     objeto4.scale(2.0);
-    objeto4.graphic().rotate(60,0,0,1);
-    //objeto4.direction(0,0,1);
-    objeto4.position(84,1,79);
+    //objeto4.graphic().rotate(45,0,0,1);
+    objeto4.direction(0,0.5,1);
+    objeto4.position(82.3,4.3,80);
 
     objeto5.load("media/models/plant/plant2.md2");
     objeto5.staticBody();
-    objeto5.scale(2.0);
-    objeto5.direction(0,0,1);
-    objeto5.position(85,1,80);
+    objeto5.scale(1.0);
+    objeto5.direction(0,-0.7,1);
+    objeto5.position(83,4.3,81);
 
     objeto6.load("media/models/arbusto/fern.md2");
     objeto6.staticBody();
@@ -41,17 +42,17 @@ Obstaculos::Obstaculos()
 
     objeto7.load("media/models/Trees/trunk.md2");
     objeto7.staticBody();
-    objeto7.scale(4.0);
-    objeto7.position(85,4,80);
+    objeto7.scale(2.0);
+    objeto7.position(83,2,80.3);
 
 }
 
 void Obstaculos::insertCenario(Scenario &cenario){
-    cenario.insert(objeto);
+    //cenario.insert(objeto);
     cenario.insert(objeto2);
     cenario.insert(objeto3);
     cenario.insert(objeto4);
-    cenario.insert(objeto5);
-    cenario.insert(objeto6);
-    //cenario.insert(objeto7);
+    //cenario.insert(objeto5);
+    //cenario.insert(objeto6);
+    cenario.insert(objeto7);
 }

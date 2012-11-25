@@ -55,6 +55,7 @@
 		<Unit filename="src\Obstaculos.h" />
 		<Unit filename="src\Player.cpp" />
 		<Unit filename="src\Player.h" />
+		<Unit filename="src\Score.cpp" />
 		<Unit filename="src\Wave.cpp" />
 		<Unit filename="src\Zumbi.cpp" />
 		<Unit filename="src\Zumbi.h" />
@@ -62,6 +63,7 @@
 		<Unit filename="src\cartucho.h" />
 		<Unit filename="src\main.cpp" />
 		<Unit filename="src\municao.h" />
+		<Unit filename="src\score.h" />
 		<Unit filename="src\wave.h" />
 		<Extensions>
 			<code_completion />
