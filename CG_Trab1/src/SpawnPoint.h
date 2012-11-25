@@ -7,8 +7,9 @@
 class SpawnPoint
 {
     public:
-        SpawnPoint(float x, float y, float z);
+        SpawnPoint();
         void insertZombie(Zumbi &zombie);
+        void setPosition(float x, float y, float z);
     private:
         Array position;
         float maxDistance;

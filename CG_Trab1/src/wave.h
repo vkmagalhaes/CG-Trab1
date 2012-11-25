@@ -32,7 +32,7 @@ class Wave
         list<int> inactiveZombiesIndexes; // lista com os indices dos zumbis que estão inativos
         list<int> activeZombiesIndexes; // lista com os indices dos zumbis que estão ativos
         list<int>::iterator intIt; // iterator das listas de indices
-        SpawnPoint* spawnPoints; // array com os spawn points
+        SpawnPoint spawnPoints[NUM_SPAWN_POINTS]; // array com os spawn points
         time_t start; // variavel que guarda o inicio do status da wave
         list<enterToken> enterTokens; // lista com os tokens ordenados pela ordem de entrada
         list<enterToken>::iterator tokensIt; // iterator dos tokens

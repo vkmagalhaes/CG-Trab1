@@ -1,8 +1,11 @@
-#include "SpawnPoint.h""
+#include "SpawnPoint.h"
 
-SpawnPoint::SpawnPoint(float x, float y, float z) {
+SpawnPoint::SpawnPoint() {
+    maxDistance = 20.0;
+}
+
+void SpawnPoint::setPosition(float x, float y, float z) {
     position.set(x, y , z);
-    maxDistance = 10.0;
 }
 
 void SpawnPoint::insertZombie(Zumbi &zombie) {

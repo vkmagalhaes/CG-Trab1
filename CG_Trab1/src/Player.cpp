@@ -12,10 +12,10 @@ Player::Player()
     activeBody();
     position(100,0,80);
     scale(1.4);
-    changeKey("Forward", Input::Keyboard::UP);
-    changeKey("Left", Input::Keyboard::LEFT);
-    changeKey("Right", Input::Keyboard::RIGHT);
-    changeKey("Back", Input::Keyboard::DOWN);
+    //changeKey("Forward", Input::Keyboard::UP);
+    //changeKey("Left", Input::Keyboard::LEFT);
+    //changeKey("Right", Input::Keyboard::RIGHT);
+    //changeKey("Back", Input::Keyboard::DOWN);
 
     label(LABEL_PLAYER);
     linearSpeed(2.0);

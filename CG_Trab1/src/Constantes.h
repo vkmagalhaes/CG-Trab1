@@ -25,6 +25,8 @@
 #define WAVE_OFF 0
 #define WAVE_ON 1
 
+#define NUM_SPAWN_POINTS 3
+
 #define ZOMBIE_1 1
 
 #endif // CONSTANTES_H

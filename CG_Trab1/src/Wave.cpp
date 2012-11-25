@@ -9,7 +9,9 @@ Wave::Wave()
     remainingSeconds = 0; // Segundos restantes para o inicio da Wave
 
     // Inicializa as posições das Waves
-    spawnPoints = new SpawnPoint[3] {SpawnPoint(200, 0, 20), SpawnPoint(150, 0, 20), SpawnPoint(50, 0, 20)};
+    spawnPoints[0].setPosition(200, 0, 20);
+    spawnPoints[1].setPosition(150, 0, 20);
+    spawnPoints[2].setPosition(50, 0, 20);
     // index que indica o próximo spawn de onde vai nascer um zumbi
     spawnPointIndex = 0;
 }
