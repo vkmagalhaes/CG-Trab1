@@ -21,6 +21,7 @@ void Wave::update(Player &player) {
     if (status == WAVE_OFF) {
         // calcula quantos segundos restam para a Wave trocar de status
         remainingSeconds = WAVE_INTERVAL - difftime( time(NULL), start );
+        //arredonda os segundos
         remainingSeconds = ceil(remainingSeconds);
 
         // se for o nivel 0 muda a label
@@ -89,9 +90,9 @@ void Wave::update(Player &player) {
 
 // funcao para ordenar a lista de tokens
 bool compare(enterToken first, enterToken second) {
-    // se o tempo de entrar fo primeiro for menor do que o do segundo
+    // se o tempo de entrar do primeiro for menor do que o do segundo
     // então siginifica que ele tem que entrar antes, logo ele tem que
-    // estar nas primeira posições da lista
+    // estar nas primeiras posições da lista
     if ( difftime( second.enterTime, first.enterTime ) >= 0 ) return true;
     return false;
 }
@@ -142,7 +143,7 @@ void Wave::activateZombie() {
 
     // coloca ele na posicao de uma spawn
     spawnPoints[spawnPointIndex].insertZombie(zombies[i]);
-    spawnPointIndex = (spawnPointIndex + 1) % 3; // atualiza para a proxima spawn
+    spawnPointIndex = (spawnPointIndex + 1) % NUM_SPAWN_POINTS; // atualiza para a proxima spawn
 
     zombies[i].activeBody(); // ativa o zumbi
     zombies[i].visible(true); // deixa ele ativo

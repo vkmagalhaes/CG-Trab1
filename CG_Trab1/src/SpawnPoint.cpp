@@ -9,12 +9,12 @@ void SpawnPoint::setPosition(float x, float y, float z) {
 }
 
 void SpawnPoint::insertZombie(Zumbi &zombie) {
-    float x, y;
+    float x, z;
     Array diff;
 
     x = random() * maxDistance;
-    y = random() * maxDistance;
-    diff.set(x, y, 20);
+    z = random() * maxDistance;
+    diff.set(x, 0, z);
 
     zombie.position( position + diff );
 }

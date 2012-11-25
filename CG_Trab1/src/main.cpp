@@ -76,8 +76,6 @@ URGE_BEGIN
             player.update();
             wave.update(player);
             cartucho.update(player);
-            if (Keyboard::hit(Keyboard::K)) score.addKill();
-            if (Keyboard::hit(Keyboard::L)) score.addHeadShot();
             if (Keyboard::hit(Keyboard::J)) wave.activateZombie();
             score.update();
             if ( player.isDead() ){

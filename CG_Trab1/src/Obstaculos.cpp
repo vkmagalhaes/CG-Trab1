@@ -3,10 +3,11 @@
 Obstaculos::Obstaculos()
 {
 
-    objeto.load("media/models/eagle/eagle.md2");
+    objeto.load("media/models/Arvore/Erle.obj");
     objeto.staticBody();
-    objeto.position(80,0.5,80);
-    objeto.graphic().changeAnimation(Animation::RUN);
+    objeto.scale(4.0);
+    objeto.position(80,4,80);
+
 
     objeto2.load("media/models/plant/plant2.md2");
     objeto2.staticBody();
@@ -48,7 +49,7 @@ Obstaculos::Obstaculos()
 }
 
 void Obstaculos::insertCenario(Scenario &cenario){
-    //cenario.insert(objeto);
+    cenario.insert(objeto);
     cenario.insert(objeto2);
     cenario.insert(objeto3);
     cenario.insert(objeto4);

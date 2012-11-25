@@ -13,8 +13,6 @@ Zumbi::Zumbi(){
     animatedVolume();
     inactiveBody();
     visible(false);
-    //scale(0.5);
-    position(0.0,20.0,0.0);
 }
 
 int Zumbi::collide(Object &other)
