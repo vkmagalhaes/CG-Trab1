@@ -18,7 +18,7 @@ Player::Player()
     //changeKey("Back", Input::Keyboard::DOWN);
 
     label(LABEL_PLAYER);
-    linearSpeed(2.0);
+    linearSpeed(PLAYER_VELOCIDADE_NORMAL);
     //limita a visao vertical do player a esse angulo
     humanView(70.0);
     mouseSensibility(0.6);
@@ -74,10 +74,16 @@ void Player::update(){
             lanternaLigada = 1;
         }
     }
+
     if(lanternaLigada){
         lanterna.position() = position();
         lanterna.direction() = direction();
     }
+
+    if( (Keyboard::check(Keyboard::RSHIFT)) || (Keyboard::check(Keyboard::LSHIFT)) ){
+        linearSpeed(PLAYER_VELOCIDADE_CORRIDA);
+    } else {linearSpeed(PLAYER_VELOCIDADE_NORMAL);}
+
 };
 int Player::isDead()
 {

@@ -25,6 +25,9 @@
 #define WAVE_OFF 0
 #define WAVE_ON 1
 
+#define PLAYER_VELOCIDADE_NORMAL 0.6
+#define PLAYER_VELOCIDADE_CORRIDA 1.6
+
 #define NUM_SPAWN_POINTS 3
 
 #define ZOMBIE_1 1

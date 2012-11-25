@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353880311 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -32,7 +32,7 @@
 	"score.h"
 	"obstaculos.h"
 
-1353874273 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353882647 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353807287 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
@@ -46,7 +46,7 @@
 	<time.h>
 	<list>
 
-1353880311 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
 1353691712 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
@@ -58,7 +58,7 @@
 	"Player.h"
 	"score.h"
 
-1353874273 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353882407 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
 1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -66,7 +66,7 @@
 	"Constantes.h"
 	<iostream>
 
-1353880311 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
 1353874273 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.h
@@ -86,7 +86,7 @@
 1353798384 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
-1353810721 D
+1353808215 D
 
 1353796007 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
@@ -164,7 +164,7 @@
 1353869641 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
-1353874275 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
 1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
@@ -196,21 +196,13 @@
 
 1353808215 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-1353869646 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
-=======
-1353863344 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
->>>>>>> Arvore ja ta aceitavel
-=======
-1353872939 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
->>>>>>> Wave Finalizada. Pool de Zumbis
-=======
 1353863344 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
 
 1353870621 ore ja ta aceitavel
->>>>>>> Nova arvore
+
+1353872939 e Finalizada. Pool de Zumbis
+
+1353870621 a arvore
 	"SpawnPoint.h"
 
 1353872939 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
@@ -236,6 +228,6 @@
 	"bibliotecas.h"
 	"Constantes.h"
 
-1353880311 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
+1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
 	"SpawnPoint.h"
 
