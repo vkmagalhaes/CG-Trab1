@@ -77,6 +77,7 @@ URGE_BEGIN
             wave.update(player);
             cartucho.update(player);
             if (Keyboard::hit(Keyboard::J)) wave.activateZombie();
+            if (Keyboard::hit(Keyboard::M)) wave.turnOn();
             score.update();
             if ( player.isDead() ){
                 gameOver = 1;
