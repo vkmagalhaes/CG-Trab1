@@ -103,7 +103,7 @@
 	<time.h>
 	<list>
 
-1353872084 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353872939 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353869641 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -120,26 +120,26 @@
 1353796064 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\municao.cpp
 	"municao.h"
 
-1353870097 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353872939 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353863762 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353876683 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
-1353872065 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
+1353879972 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Zumbi.h"
 	"SpawnPoint.h"
 	"Player.h"
 
-1353869642 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.h
+1353876657 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"score.h"
 	"municao.h"
 
-1353869642 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353876254 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
 1353869889 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\main.cpp
@@ -173,7 +173,7 @@
 
 1353777596 ei obstaculos e to passando heightmap
 
-1353869641 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353872936 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
 1353869641 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
@@ -197,13 +197,17 @@
 1353808215 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1353869646 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
 =======
 1353863344 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
 >>>>>>> Arvore ja ta aceitavel
+=======
+1353872939 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
+>>>>>>> Wave Finalizada. Pool de Zumbis
 	"SpawnPoint.h"
 
-1353872040 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
+1353872939 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Zumbi.h"

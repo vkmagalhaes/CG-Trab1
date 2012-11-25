@@ -55,10 +55,13 @@ void Wave::update(Player &player) {
         }
     }
 
+    Text::write(20,40,"Zumbis Ativos: %d", activeZombiesIndexes.size());
+    Text::write(20,60,"Zumbis Inativos: %d", inactiveZombiesIndexes.size());
 
     // loop para atualizar as posicoes dos zumbis ativos
     // e fazerem eles irem emdirecao ao player
-    for(intIt=activeZombiesIndexes.begin(); intIt != activeZombiesIndexes.end(); intIt++){
+    intIt = activeZombiesIndexes.begin();
+    while(intIt != activeZombiesIndexes.end()){
         i = *intIt;
         if (zombies[i].bodyBehavior() == Object::ACTIVE) {
             if ((player.position() - zombies[i].position()).length() < 5.0) {
@@ -74,6 +77,12 @@ void Wave::update(Player &player) {
                 zombies[i].body().force += (player.position() - zombies[i].position()).normalize()* VELOCIDADE_ZUMBI;
                 zombies[i].direction(zombies[i].body().force);
             }
+            intIt++;
+        } else {
+            // se o zumbi está inativo é pq ele foi morto
+            // logo tira ele dos zumbis ativos e coloca como inativo
+            inactiveZombiesIndexes.push_back(i);
+            intIt = activeZombiesIndexes.erase(intIt);
         }
     }
 }
