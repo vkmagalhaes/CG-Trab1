@@ -19,11 +19,7 @@ Zumbi::Zumbi(){
 
 int Zumbi::collide(Object &other)
 {
-    if (other.label() == LABEL_MUNICAO)
-    {
-        disappear();
-        //other.hit(0);
-    }
+    if (other.label() == LABEL_MUNICAO){ die( other );}
     return 1;
 }
 
@@ -34,4 +30,16 @@ void Zumbi::insertCenario(Scenario &cenario){
 void Zumbi::disappear(){
     visible(false);
     inactiveBody();
+}
+
+void Zumbi::die(Object &other){
+    disappear();
+    Municao* municao;
+    municao = (Municao*)&other;
+    if( (*municao).position().y() > 1.3){
+        Score::addHeadShot();
+    }
+    else{
+        Score::addKill();
+    }
 }

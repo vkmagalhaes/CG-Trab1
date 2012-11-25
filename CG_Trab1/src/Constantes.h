@@ -3,7 +3,7 @@
 #include "bibliotecas.h"
 
 #define LARGURA_TELA    800
-#define COLUNA_DISPLAY (LARGURA_TELA - 100)
+#define COLUNA_DISPLAY (LARGURA_TELA - 150)
 #define ALTURA_TELA     600
 #define LINHA1_DISPLAY  30
 #define LABEL_PLAYER    1

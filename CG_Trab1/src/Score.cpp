@@ -4,13 +4,15 @@ Score::Score() {
     // pega o tempo atual
     start = time(NULL);
     lastTimeScore = time(NULL);
-    score = 0;
-    kills = 0;
-    comboKills = 0;
-    comboMultiplier = 1;
     timeMultiplier = 1;
-    lastKill = time(NULL);
 }
+
+int Score::score = 0;
+int Score::headShot = 0;
+int Score::kills = 0;
+int Score::comboKills = 0;
+int Score::comboMultiplier = 1;
+time_t Score::lastKill = time(NULL);
 
 void Score::addKill() {
     score += SCORE_ZOMBIE_KILL * comboMultiplier;
@@ -19,6 +21,7 @@ void Score::addKill() {
 
 void Score::addHeadShot() {
     score += SCORE_ZOMBIE_HEADSHOT * comboMultiplier;
+    headShot++;
     updateKills();
 }
 
@@ -35,20 +38,21 @@ void Score::update() {
     if ( difftime( time(NULL), lastTimeScore ) >= 1 ) {
         addTimeScore();
     }
-    if ( lastKill != NULL && difftime( time(NULL), lastKill ) >= COMBO_DURATION ) {
+    if ( lastKill != 0 && difftime( time(0), lastKill ) >= COMBO_DURATION ) {
         comboMultiplier = 1;
-        lastKill = NULL;
+        lastKill = 0;
         kills = 0;
         comboKills = 0;
     }
 
-    Text::write(COLUNA_DISPLAY -100,LINHA1_DISPLAY + 20,"Score: %d",score);
+    Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 20,"Score: %d",score);
+    Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 50,"HeadShot: %d",headShot);
 
     if (comboMultiplier > 1) {
-        Text::write(COLUNA_DISPLAY -100,LINHA1_DISPLAY + 30,"Multiplicador: %d",comboMultiplier);
+        Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 30,"Multiplicador: %d",comboMultiplier);
     }
     if (comboKills > 1) {
-        Text::write(COLUNA_DISPLAY -100,LINHA1_DISPLAY + 40,"Combo: %d",comboKills);
+        Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 40,"Combo: %d",comboKills);
     }
 }
 

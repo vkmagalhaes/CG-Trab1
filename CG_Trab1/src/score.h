@@ -5,23 +5,30 @@
 
 class Score
 {
+
     public:
         Score();
-        void addKill();
-        void addHeadShot();
+        //virtual void zumbiKilled();
+        static void addKill();
+        static void addHeadShot();
         void plusTimeMultiplier();
         void update();
-    private:
         void addTimeScore();
-        void updateKills();
+
+        static int score;
+        static int kills;
+        static int comboKills;
+        static int comboMultiplier;
+        static time_t lastKill;
+        static int headShot;
+
+    private:
+
+
+        static void updateKills();
         time_t start;
         time_t lastTimeScore;
-        int score;
-        int kills;
-        int comboKills;
-        int comboMultiplier;
         int timeMultiplier;
-        time_t lastKill;
 };
 
 #endif // SCORE_H

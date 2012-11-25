@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353791513 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353807040 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -29,34 +29,38 @@
 	"Player.h"
 	"wave.h"
 	"cartucho.h"
+	"score.h"
 	"obstaculos.h"
 
-1353779842 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353802987 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
-1353690963 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
+1353807287 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
 	"bibliotecas.h"
 	"Constantes.h"
+	"score.h"
+	"municao.h"
 
 1353779266 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\bibliotecas.h
 	<URGE/URGE.h>
 	<time.h>
 
-1353690963 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353807941 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
 1353691712 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
 	"municao.h"
 
-1353624601 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.h
+1353798384 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
+	"score.h"
 
-1353790977 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353798387 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353790409 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
+1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
 	"bibliotecas.h"
 	"Constantes.h"
 	<iostream>
@@ -70,13 +74,14 @@
 	"Zumbi.h"
 	"Player.h"
 
-1353621048 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.h
+1353798384 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
 	"municao.h"
+	"score.h"
 
-1353625419 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
+1353798384 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
 1353625419 D
@@ -153,10 +158,10 @@
 1353796647 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
-1353792330 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353798387 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
-1353793523 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
+1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
 	"bibliotecas.h"
 	"Constantes.h"
 
@@ -172,4 +177,14 @@
 1353791491 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.h
 	"bibliotecas.h"
 	"Constantes.h"
+
+1353808215 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\score.h
+	"bibliotecas.h"
+	"Constantes.h"
+
+1353800829 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.cpp
+	"Constantes.h"
+
+1353808215 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\score.cpp
+	"score.h"
 
