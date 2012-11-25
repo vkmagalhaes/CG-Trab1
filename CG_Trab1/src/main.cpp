@@ -63,8 +63,6 @@ URGE_BEGIN
     disp.insert(*player.getLifeBarEmpty() );
     disp.insert(*player.getLifeBar() );
 
-    printf("%p\n", &cenario);
-
     //LOOP DO JOGO
     do
     {
@@ -78,12 +76,9 @@ URGE_BEGIN
             player.update();
             wave.update(player);
             cartucho.update(player);
-<<<<<<< HEAD
-=======
             if (Keyboard::hit(Keyboard::K)) score.addKill();
             if (Keyboard::hit(Keyboard::L)) score.addHeadShot();
             if (Keyboard::hit(Keyboard::J)) wave.activateZombie();
->>>>>>> Wave com suspiro aumentando a dificuldade
             score.update();
             if ( player.isDead() ){
                 gameOver = 1;
