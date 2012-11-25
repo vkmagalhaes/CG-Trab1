@@ -3,6 +3,7 @@
 
 #include <URGE/URGE.h>
 #include <time.h>
+#include <list>
 
 USING_URGE;
 

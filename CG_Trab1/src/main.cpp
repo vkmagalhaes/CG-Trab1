@@ -15,15 +15,15 @@ URGE_BEGIN
 
     //DECLARAÇÕES
     int gameOver = 0;
-    float deltaTime;
     Player player;
     Scenario cenario;
-    Wave wave;
     Sky sky;
     Light light;
     Terrain terrain;
     Cartucho cartucho;
     Score score;
+    //Wave wave(cenario);
+    Wave wave;
 
     //FrameRateMonitor frameMonitor;
 
@@ -50,18 +50,20 @@ URGE_BEGIN
 
     // inserindo os objetos no cenario
     cenario.insert(sky);
-    wave.insertCenario(cenario);
     cenario.insert(terrain);
     cenario.insert(light);
     cartucho.insertCenario(cenario);
     player.insertCenario(cenario);
     obstaculos.insertCenario(cenario);
+    wave.insertZombies(cenario);
 
     cenario.glowNullNormalSurfacesRatio(0.6);
     cenario.prepare();
     Display disp;
     disp.insert(*player.getLifeBarEmpty() );
     disp.insert(*player.getLifeBar() );
+
+    printf("%p\n", &cenario);
 
     //LOOP DO JOGO
     do
@@ -76,6 +78,12 @@ URGE_BEGIN
             player.update();
             wave.update(player);
             cartucho.update(player);
+<<<<<<< HEAD
+=======
+            if (Keyboard::hit(Keyboard::K)) score.addKill();
+            if (Keyboard::hit(Keyboard::L)) score.addHeadShot();
+            if (Keyboard::hit(Keyboard::J)) wave.activateZombie();
+>>>>>>> Wave com suspiro aumentando a dificuldade
             score.update();
             if ( player.isDead() ){
                 gameOver = 1;

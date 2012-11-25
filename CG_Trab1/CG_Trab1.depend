@@ -96,11 +96,12 @@
 	"municao.h"
 	"score.h"
 
-1353778246 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\bibliotecas.h
+1353816921 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\bibliotecas.h
 	<URGE/URGE.h>
 	<time.h>
+	<list>
 
-1353790117 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353861396 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353778241 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -120,14 +121,15 @@
 1353784589 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
-1353778241 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353863762 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
-1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
+1353867453 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\wave.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Zumbi.h"
-	"Player.h"
+	"SpawnPoint.h"
+	<math.h>
 
 1353691884 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.h
 	"bibliotecas.h"
@@ -136,7 +138,7 @@
 1353796072 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
-1353796730 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353863174 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -178,6 +180,7 @@
 	"bibliotecas.h"
 	"Constantes.h"
 
+<<<<<<< HEAD
 1353808215 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\score.h
 	"bibliotecas.h"
 	"Constantes.h"
@@ -188,3 +191,17 @@
 1353808215 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
+=======
+1353863344 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
+	"SpawnPoint.h"
+
+1353862183 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"Zumbi.h"
+
+1353810721 c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\zombietoken.h
+	"bibliotecas.h"
+	"Constantes.h"
+
+>>>>>>> Wave com suspiro aumentando a dificuldade

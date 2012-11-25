@@ -10,7 +10,7 @@
 #define LABEL_MUNICAO   2
 #define LABEL_ZUMBI     3
 #define NUM_BALAS       10
-#define NUM_ZUMBIS      50
+#define NUM_ZUMBIS      70
 #define VELOCIDADE_ZUMBI 200.0
 #define VELOCIDADE_BALA  80.0
 #define SCORE_PER_SEC       10
@@ -19,5 +19,12 @@
 #define COMBO_DURATION 6
 #define LARGURA_TERRENO 800
 #define COMPRIMENTO_TERRENO  800
+
+#define WAVE_DURATION 60.0
+#define WAVE_INTERVAL 10.0
+#define WAVE_OFF 0
+#define WAVE_ON 1
+
+#define ZOMBIE_1 1
 
 #endif // CONSTANTES_H
