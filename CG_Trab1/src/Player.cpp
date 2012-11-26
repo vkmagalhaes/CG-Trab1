@@ -59,9 +59,19 @@ int Player::collide(Object &other)
 }
 
 void Player::die(){
-    control().disableAll();
+    inactiveBody();
     disableMouse();
     lanterna.intensity(0.0);
+}
+
+void Player::revive() {
+    activeBody();
+    enableMouse();
+    lanterna.intensity(5.0);
+    life = 100;
+    lifebar.scale(life/100.0,0.5);
+    lifebar.position(10 + lifebar.width()/2,10 + lifebar.height()/2);
+    position(100,0,80);
 }
 
 void Player::update(){

@@ -7,6 +7,7 @@
 #include "wave.h"
 #include "cartucho.h"
 #include "score.h"
+#include "Highscore.h"
 #include "obstaculos.h"
 
 URGE_BEGIN
@@ -22,6 +23,7 @@ URGE_BEGIN
     Terrain terrain;
     Cartucho cartucho;
     Score score;
+    Highscore highscore;
     //Wave wave(cenario);
     Wave wave;
 
@@ -69,18 +71,36 @@ URGE_BEGIN
 
         if (gameOver){
             Text::write((LARGURA_TELA/2)-20,(ALTURA_TELA/2)-5,"%s","GAME OVER");
+
+            Text::write((LARGURA_TELA/2)-150,(ALTURA_TELA/2)+20,"%s","Aperte 'R' para recomeçar, ou 'ESC' para sair.");
+
+            highscore.update();
+
+            if (Keyboard::hit(Keyboard::R)) {
+                wave.restart();
+                Score::erase();
+                gameOver = 0;
+                player.revive();
+            }
         }else{
             Text::write((LARGURA_TELA/2)-3,(ALTURA_TELA/2)-5,"%s","+");
 
             player.update();
             wave.update(player);
             cartucho.update(player);
-            if (Keyboard::hit(Keyboard::J)) wave.activateZombie();
+
             if (Keyboard::hit(Keyboard::M)) wave.turnOn();
+
             score.update();
             if ( player.isDead() ){
                 gameOver = 1;
                 wave.gameOver();
+
+                highscore.loadFromFile();
+                if (highscore.isHighscore()) {
+                    highscore.addHighscore();
+                    highscore.saveToFile();
+                }
             }
         }
         cenario.update();

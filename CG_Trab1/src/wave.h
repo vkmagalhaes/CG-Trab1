@@ -27,6 +27,7 @@ class Wave
         void insertZombies(Scenario &cenario); // insere os zumbis no cenario
         void activateZombie(); // faz nascer um zumbi
         void gameOver(); // remove os zumbis da tela
+        void restart();
     private:
         Zumbi zombies[NUM_ZUMBIS]; // array de zumbis
         list<int> inactiveZombiesIndexes; // lista com os indices dos zumbis que estão inativos

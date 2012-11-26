@@ -16,6 +16,7 @@ public:
     GuiSprite* getLifeBar();
     GuiSprite* getLifeBarEmpty();
     void insertCenario(Scenario &cenario);
+    void revive();
 private:
     int life;
     Sound sfx;

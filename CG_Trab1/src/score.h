@@ -5,7 +5,6 @@
 
 class Score
 {
-
     public:
         Score();
         //virtual void zumbiKilled();
@@ -14,10 +13,13 @@ class Score
         void plusTimeMultiplier();
         void update();
         void addTimeScore();
+        static void erase();
 
         static int score;
         static int kills;
+        static int totalKills;
         static int comboKills;
+        static int maxComboKills;
         static int comboMultiplier;
         static time_t lastKill;
         static int headShot;

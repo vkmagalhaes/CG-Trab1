@@ -56,8 +56,8 @@ void Wave::update(Player &player) {
         }
     }
 
-    Text::write(20,40,"Zumbis Ativos: %d", activeZombiesIndexes.size());
-    Text::write(20,60,"Zumbis Inativos: %d", inactiveZombiesIndexes.size());
+    //Text::write(20,40,"Zumbis Ativos: %d", activeZombiesIndexes.size());
+    //Text::write(20,60,"Zumbis Inativos: %d", inactiveZombiesIndexes.size());
 
     // loop para atualizar as posicoes dos zumbis ativos
     // e fazerem eles irem emdirecao ao player
@@ -154,8 +154,16 @@ void Wave::activateZombie() {
 
 void Wave::gameOver(){
     // some com todos os zumbis ativos
+    enterTokens.clear();
     for(intIt=activeZombiesIndexes.begin(); intIt != activeZombiesIndexes.end(); intIt++){
         i = *intIt;
         zombies[i].disappear();
     }
+}
+
+void Wave::restart() {
+    nivel = 0;
+    start = time(NULL); // Inicio do cronometro
+    status = WAVE_OFF; // Wave Inicia com o Suspiro
+    remainingSeconds = 0; // Segundos restantes para o inicio da Wave
 }

@@ -33,6 +33,8 @@
 
 #define NUM_SPAWN_POINTS 3
 
+#define HIGHSCORES_CAPACITY 5
+
 #define ZOMBIE_1 1
 
 #endif // CONSTANTES_H
