@@ -49,7 +49,7 @@ void Score::update() {
     }
 
     Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 20,"Score: %d",score);
-    Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 50,"HeadShot: %d",headShot);
+    //Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 50,"HeadShot: %d",headShot);
 
     if (comboMultiplier > 1) {
         Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 30,"Multiplicador: %d",comboMultiplier);

@@ -67,17 +67,20 @@ void Highscore::loadFromFile() {
 }
 
 void Highscore::saveToFile() {
-    file.open("highscores.txt");
+    //file.open("highscores.txt");
+
+    FILE * pFile;
+
+    pFile = fopen("highscores.txt", "w");
 
     //if (file.is_open()) {
         for(int i=0; i < HIGHSCORES_CAPACITY; i++) {
-            file << highscores[i].score << " ";
-            file << highscores[i].comboKills << " ";
-            file << highscores[i].totalKills << "\n";
+            fprintf(pFile, "%d %d %d\n", highscores[i].score, highscores[i].comboKills, highscores[i].totalKills);
         }
     //} else {
     //    printf("Erro ao salvar highscores!\n");
     //}
 
-    file.close();
+    //file.close();
+    fclose(pFile);
 }

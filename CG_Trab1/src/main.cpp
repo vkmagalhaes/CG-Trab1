@@ -14,7 +14,8 @@
 
 URGE_BEGIN
 {
-    gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, DEFERRED_SHADING | WINDOWED | SHADER_LOG, "URGE TEST");
+    //gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, DEFERRED_SHADING | WINDOWED | SHADER_LOG, "LEFT 4 DEAD 3");
+    gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, WINDOWED | NO_SHADER, "LEFT 4 DEAD 3");
 
     //DECLARAÇÕES
     int gameOver = 0;
@@ -82,7 +83,7 @@ URGE_BEGIN
         if (gameOver){
             Text::write((LARGURA_TELA/2)-20,(ALTURA_TELA/2)-5,"%s","GAME OVER");
 
-            Text::write((LARGURA_TELA/2)-150,(ALTURA_TELA/2)+20,"%s","Aperte 'R' para recomeçar, ou 'ESC' para sair.");
+            Text::write((LARGURA_TELA/2)-185,(ALTURA_TELA/2)+20,"%s","Aperte 'R' para recomeçar, ou 'ESC' para sair.");
 
             highscore.update();
 
