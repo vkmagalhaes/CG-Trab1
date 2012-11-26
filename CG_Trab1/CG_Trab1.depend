@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353888705 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -32,7 +32,7 @@
 	"score.h"
 	"obstaculos.h"
 
-1353882647 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353887084 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353807287 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
@@ -46,7 +46,7 @@
 	<time.h>
 	<list>
 
-1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353885869 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
 1353691712 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
@@ -58,7 +58,7 @@
 	"Player.h"
 	"score.h"
 
-1353882407 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353886464 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
 1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -168,7 +168,7 @@
 1353869641 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
-1353881233 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353889632 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
 1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h

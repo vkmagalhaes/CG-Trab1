@@ -29,13 +29,18 @@ Obstaculos::Obstaculos()
     objeto5.direction(0,-0.7,1);
     objeto5.position(83,4.3,81);
 
-    objeto6.load("media/models/arbusto/fern.md2");
-    objeto6.staticBody();
-    objeto6.enableLighting();
-    objeto6.shininess(50.0);
-    objeto6.reflectivity(1.0);
+    objeto6.box();
+    objeto6.changeBoundingVolume(Solid::BOX);
+    //objeto6.enableLighting();
+    //objeto6.shininess(50.0);
+    //objeto6.reflectivity(1.0);
     //objeto6.scale(2.0);
-    objeto6.position(85,0.5,70);
+    objeto6.position(85,2,70);
+    objeto6.scale(2);
+    //objeto6.graphic().changeAnimation(Animation::NONE);
+    objeto6.loadTexture("media/tex/caixote_textura.png");
+    objeto6.loadNormalMap("media/tex/caixote_normal.png");
+    objeto6.texture().scale(1);
 
     objeto3.load("media/models/jeep/jeep.obj");
     objeto3.staticBody();
@@ -49,11 +54,11 @@ Obstaculos::Obstaculos()
 }
 
 void Obstaculos::insertCenario(Scenario &cenario){
-    cenario.insert(objeto);
+    //cenario.insert(objeto);
     cenario.insert(objeto2);
-    cenario.insert(objeto3);
+    //cenario.insert(objeto3);
     cenario.insert(objeto4);
     //cenario.insert(objeto5);
-    //cenario.insert(objeto6);
+    cenario.insert(objeto6);
     cenario.insert(objeto7);
 }

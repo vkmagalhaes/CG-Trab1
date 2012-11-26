@@ -12,6 +12,8 @@ Player::Player()
     activeBody();
     position(100,0,80);
     scale(1.4);
+    direction(-0.7,0,1);
+
     //changeKey("Forward", Input::Keyboard::UP);
     //changeKey("Left", Input::Keyboard::LEFT);
     //changeKey("Right", Input::Keyboard::RIGHT);
@@ -21,7 +23,7 @@ Player::Player()
     linearSpeed(PLAYER_VELOCIDADE_NORMAL);
     //limita a visao vertical do player a esse angulo
     humanView(70.0);
-    mouseSensibility(0.6);
+    mouseSensibility(0.4);
 
     //LANTERNA
     lanternaLigada = 0;

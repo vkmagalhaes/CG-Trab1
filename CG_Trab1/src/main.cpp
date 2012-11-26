@@ -11,7 +11,7 @@
 
 URGE_BEGIN
 {
-    gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, WINDOWED | NO_SHADER, "URGE TEST");
+    gimme_window(LARGURA_TELA,ALTURA_TELA, RENDER_QUALITY_PERFECT, DEFERRED_SHADING | WINDOWED | SHADER_LOG, "URGE TEST");
 
     //DECLARAÇÕES
     int gameOver = 0;
@@ -34,12 +34,11 @@ URGE_BEGIN
     terrain.specular(0.3);
     terrain.ambient(0.4);
     terrain.texture().scale(50);
-    terrain.loadNormalMap("media/tex/bumpy_normal.bmp");
 
     light.directional();
     light.color(240,170,80);
-    light.intensity(0.9);
-    light.direction(0,100,0);
+    light.intensity(1.6);
+    light.direction(20,50,0);
 
     if (sky.loadTexture("media/sky/cloudy") != TEXTURE_LOAD_SUCCESS)
 	{
