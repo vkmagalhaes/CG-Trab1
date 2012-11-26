@@ -11,7 +11,7 @@
 #define LABEL_ZUMBI     3
 #define NUM_BALAS       10
 #define DURACAO_BALA_1 80
-#define NUM_ZUMBIS      20
+#define NUM_ZUMBIS      70
 #define VELOCIDADE_ZUMBI 200.0
 #define VELOCIDADE_BALA_1  80.0
 #define VELOCIDADE_BALA_2  50.0
@@ -42,6 +42,6 @@
 #define HIGHSCORES_CAPACITY 5
 
 #define ZOMBIE_1 1
-#define NUM_ARVORES 200
+#define NUM_ARVORES 20
 
 #endif // CONSTANTES_H

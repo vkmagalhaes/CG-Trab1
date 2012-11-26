@@ -9,8 +9,6 @@
 #include "score.h"
 #include "Highscore.h"
 #include "obstaculos.h"
-//#include "kamehameha.h"
-//#include "machineGun.h"
 
 URGE_BEGIN
 {
@@ -28,24 +26,21 @@ URGE_BEGIN
     Score score;
 
     Highscore highscore;
-    //Wave wave(cenario);
+
 
     Wave wave;
     Obstaculos obstaculos;
     Cartucho cartucho;
-    //Kamehameha kamehameha;
-    //MachineGun machineGun;
-    //int armaEmUso = ARMA_TIPO_1;
 
     //CARREGANDO COISAS
-    terrain.load("media/terrain/heightmap7Fechado.jpg",0, 100,LARGURA_TERRENO,COMPRIMENTO_TERRENO,"media/tex/grass.jpg");
+    terrain.load("media/terrain/heightmap7Fechado.jpg",0, 100,LARGURA_TERRENO,COMPRIMENTO_TERRENO,"media/tex/cinza.jpg");
     terrain.specular(0.3);
     terrain.ambient(0.4);
     terrain.texture().scale(50);
 
     light.directional();
     light.color(240,170,80);
-    light.intensity(1.6);
+    light.intensity(0.6);
     light.direction(20,50,0);
 
     if (sky.loadTexture("media/sky/cloudy") != TEXTURE_LOAD_SUCCESS)
@@ -59,8 +54,6 @@ URGE_BEGIN
     cenario.insert(sky);
     cenario.insert(terrain);
     cenario.insert(light);
-    //kamehameha.insertCenario(cenario);
-    // machineGun.insertCenario(cenario);
     cartucho.insertCenario(cenario);
     player.insertCenario(cenario);
     obstaculos.insertCenario(cenario);
@@ -72,9 +65,6 @@ URGE_BEGIN
     disp.insert(*player.getLifeBarEmpty() );
     disp.insert(*player.getLifeBar() );
 
-    //machineGun.setCaracteristicas();
-    //kamehameha.setCaracteristicas();
-    //Cartucho temp;
 
     //LOOP DO JOGO
     do{
@@ -103,27 +93,6 @@ URGE_BEGIN
 
             if (Keyboard::hit(Keyboard::M)) wave.turnOn();
 
-/*=======
-            Text::write(COLUNA_DISPLAY,LINHA1_DISPLAY+70,"%s %d","Arma: ",armaEmUso);
-            //atualiza o tipo de arma em uso
-            if (armaEmUso == ARMA_TIPO_1){
-                machineGun.update(player);
-            }else{kamehameha.update(player);
-            }
-            if(Keyboard::hit(Keyboard::Q)){
-                //modifica a arma em uso
-                if (armaEmUso == ARMA_TIPO_1){
-                    armaEmUso = ARMA_TIPO_2;
-                }
-                else {
-                    armaEmUso = ARMA_TIPO_1;
-                }
-                //armaEmUso = (armaEmUso+1)%NUM_TIPOS_ARMA;
-                //temp = *(arma.at(armaEmUso));
-                //temp.update(player);
-            }
->>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
-*/
             score.update();
             if ( player.isDead() ){
                 gameOver = 1;

@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353925456 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353932870 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -32,8 +32,10 @@
 	"score.h"
 	"Highscore.h"
 	"obstaculos.h"
+	"kamehameha.h"
+	"machineGun.h"
 
-1353929313 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353933288 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353807287 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
@@ -304,7 +306,7 @@
 	"bibliotecas.h"
 	"Constantes.h"
 
-1353928986 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\arvore.cpp
+1353929534 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\arvore.cpp
 	"arvore.h"
 
 1353928352 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\caixote.cpp
