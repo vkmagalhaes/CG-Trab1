@@ -10,7 +10,7 @@ Player::Player()
     lifebar_empty.scale(1.0,0.5);
     lifebar_empty.position(10 + lifebar_empty.width()/2,10 + lifebar_empty.height()/2);
     activeBody();
-    position(100,0,80);
+    position(100,5,80);
     scale(1.4);
     direction(-0.7,0,1);
 

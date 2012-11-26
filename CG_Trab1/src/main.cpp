@@ -9,8 +9,8 @@
 #include "score.h"
 #include "Highscore.h"
 #include "obstaculos.h"
-#include "kamehameha.h"
-#include "machineGun.h"
+//#include "kamehameha.h"
+//#include "machineGun.h"
 
 URGE_BEGIN
 {
@@ -25,16 +25,16 @@ URGE_BEGIN
     Terrain terrain;
 
     Score score;
-<<<<<<< HEAD
+
     Highscore highscore;
     //Wave wave(cenario);
-=======
->>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
+
     Wave wave;
     Obstaculos obstaculos;
-    Kamehameha kamehameha;
-    MachineGun machineGun;
-    int armaEmUso = ARMA_TIPO_1;
+    Cartucho cartucho;
+    //Kamehameha kamehameha;
+    //MachineGun machineGun;
+    //int armaEmUso = ARMA_TIPO_1;
 
     //CARREGANDO COISAS
     terrain.load("media/terrain/heightmap7Fechado.jpg",0, 100,LARGURA_TERRENO,COMPRIMENTO_TERRENO,"media/tex/grass.jpg");
@@ -58,8 +58,9 @@ URGE_BEGIN
     cenario.insert(sky);
     cenario.insert(terrain);
     cenario.insert(light);
-    kamehameha.insertCenario(cenario);
-    machineGun.insertCenario(cenario);
+    //kamehameha.insertCenario(cenario);
+    // machineGun.insertCenario(cenario);
+    cartucho.insertCenario(cenario);
     player.insertCenario(cenario);
     obstaculos.insertCenario(cenario);
     wave.insertZombies(cenario);
@@ -70,10 +71,10 @@ URGE_BEGIN
     disp.insert(*player.getLifeBarEmpty() );
     disp.insert(*player.getLifeBar() );
 
-    machineGun.setCaracteristicas();
-    kamehameha.setCaracteristicas();
+    //machineGun.setCaracteristicas();
+    //kamehameha.setCaracteristicas();
+    //Cartucho temp;
 
-    Cartucho temp;
     //LOOP DO JOGO
     do{
         if (Keyboard::hit(Keyboard::ESC)) {break;}
@@ -96,12 +97,12 @@ URGE_BEGIN
 
             player.update();
             wave.update(player);
-<<<<<<< HEAD
+
             cartucho.update(player);
 
             if (Keyboard::hit(Keyboard::M)) wave.turnOn();
 
-=======
+/*=======
             Text::write(COLUNA_DISPLAY,LINHA1_DISPLAY+70,"%s %d","Arma: ",armaEmUso);
             //atualiza o tipo de arma em uso
             if (armaEmUso == ARMA_TIPO_1){
@@ -120,9 +121,8 @@ URGE_BEGIN
                 //temp = *(arma.at(armaEmUso));
                 //temp.update(player);
             }
-            if (Keyboard::hit(Keyboard::J)) {wave.activateZombie();}
-            if (Keyboard::hit(Keyboard::M)) {wave.turnOn();}
 >>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
+*/
             score.update();
             if ( player.isDead() ){
                 gameOver = 1;

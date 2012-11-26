@@ -42,5 +42,6 @@
 #define HIGHSCORES_CAPACITY 5
 
 #define ZOMBIE_1 1
+#define NUM_ARVORES 200
 
 #endif // CONSTANTES_H

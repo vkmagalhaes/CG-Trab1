@@ -48,8 +48,6 @@
 		<Unit filename="shader_bin\ocd.shd" />
 		<Unit filename="shader_bin\ocf.shd" />
 		<Unit filename="shader_bin\pho.shd" />
-		<Unit filename="src\Arma.cpp" />
-		<Unit filename="src\Arma.h" />
 		<Unit filename="src\Cartucho.cpp" />
 		<Unit filename="src\Constantes.h" />
 		<Unit filename="src\Kamehameha.cpp" />
