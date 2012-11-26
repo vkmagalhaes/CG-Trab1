@@ -2,18 +2,22 @@
 URGE
 SHADER COMPILER DEBUG INFO
 ----------------------------------------------
-OpenGL Version: 2.1
+OpenGL Version: 3.3
 Using GLSL native routines. 
 
 ----------------------------------------------
 Vertex Log:
 ----------------------------------------------
 No errors.
-GL Warning: valor inválido
+
+GL Warning: enumerador inválido
 ----------------------------------------------
 Pixel Log:
 ----------------------------------------------
+WARNING: 542:1: 'assing' : implict conversion between types allowed from GLSL 1.20 
+
 No errors.
+
 GL Warning: operação inválida
 ----------------------------------------------
 Linkage Log:

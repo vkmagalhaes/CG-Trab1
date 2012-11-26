@@ -34,7 +34,8 @@ void Zumbi::die(Object &other){
     disappear();
     Municao* municao;
     municao = (Municao*)&other;
-    if( (*municao).position().y() > 1.4){
+    if( (*municao).position().y() > ( position().y()+0.3) ) {
+        Text::write(100,50,"%s","HEADSHOT!");
         Score::addHeadShot();
     }
     else{

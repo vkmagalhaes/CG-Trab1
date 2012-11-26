@@ -57,6 +57,7 @@ void Score::update() {
     if (comboKills > 1) {
         Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 40,"Combo: %d",comboKills);
     }
+    Text::write(COLUNA_DISPLAY ,LINHA1_DISPLAY + 500,"Headshot: %d",headShot);
 }
 
 void Score::erase() {

@@ -65,7 +65,7 @@ void Wave::update(Player &player) {
     while(intIt != activeZombiesIndexes.end()){
         i = *intIt;
         if (zombies[i].bodyBehavior() == Object::ACTIVE) {
-            if ((player.position() - zombies[i].position()).length() < 2.0) {
+            if ((player.position() - zombies[i].position()).length() < 3.0) {
                 if (zombies[i].graphic().getCurrentAnimation() != Animation::TAUNT02)
                 {
                     //Forca colisao repetida de ataque

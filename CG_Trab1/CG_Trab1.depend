@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353932870 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353968750 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -32,10 +32,10 @@
 	"score.h"
 	"Highscore.h"
 	"obstaculos.h"
-	"kamehameha.h"
 	"machineGun.h"
+	"kamehameha.h"
 
-1353933288 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353968858 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353807287 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
@@ -49,10 +49,10 @@
 	<time.h>
 	<list>
 
-1353889931 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353943825 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
-1353925539 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
+1353936782 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
 	"municao.h"
 
 1353925091 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.h
@@ -61,7 +61,7 @@
 	"Player.h"
 	"score.h"
 
-1353925782 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353944045 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
 1353925089 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -69,7 +69,7 @@
 	"Constantes.h"
 	<iostream>
 
-1353925089 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.cpp
+1353937196 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.cpp
 	"wave.h"
 
 1353925089 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\wave.h
@@ -180,7 +180,7 @@
 1353931288 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
-1353928912 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353936782 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
 1353928729 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
@@ -211,7 +211,7 @@
 1353800829 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.cpp
 	"Constantes.h"
 
-1353925089 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\score.cpp
+1353944288 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
 1353895978 
@@ -272,7 +272,7 @@
 	"Cartucho.h"
 	"Player.h"
 
-1353925091 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\kamehameha.cpp
+1353935931 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\kamehameha.cpp
 	"kamehameha.h"
 
 1353925091 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\kamehameha.h
@@ -280,7 +280,7 @@
 	"Constantes.h"
 	"cartucho.h"
 
-1353925091 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\machinegun.cpp
+1353935931 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\machinegun.cpp
 	"machineGun.h"
 
 1353925091 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\machinegun.h
@@ -288,7 +288,7 @@
 	"Constantes.h"
 	"cartucho.h"
 
-1353925089 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\highscore.cpp
+1353934130 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\highscore.cpp
 	"Highscore.h"
 
 1353925089 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\highscore.h
@@ -306,10 +306,10 @@
 	"bibliotecas.h"
 	"Constantes.h"
 
-1353929534 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\arvore.cpp
+1353944587 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\arvore.cpp
 	"arvore.h"
 
-1353928352 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\caixote.cpp
+1353943260 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\caixote.cpp
 	"caixote.h"
 
 1353929588 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\kamehameha.cpp

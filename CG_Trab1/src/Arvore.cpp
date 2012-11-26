@@ -34,10 +34,10 @@ void Arvore::insertCenario(Scenario &cenario){
 void Arvore::setPosition(){
     float x, z;
     Array diff;
-    float maxDistance = 120.0;
+    float maxDistance = 250.0;
     x = random() * maxDistance;
     z = random() * maxDistance;
-    position(x+100, 2, z+100);
+    position(x,2,  z);
 
     Array pos = position();
     pos.add(0.7,2.3,-0.3);

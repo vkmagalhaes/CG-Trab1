@@ -5,27 +5,27 @@ Municao::Municao()
     sphere();
     changeBoundingVolume(Solid::SPHERE);
     label(LABEL_MUNICAO);
-    scale(1.0);
-    body().gravityScale(0.0);
+    //scale(1.0);
+    //body().gravityScale(0.0);
     body().damping(0.0);
-    velocidade = 80.0;
+    //velocidade = 80.0;
     light.color(255,180,60);
     light.intensity(5.0);
     light.attenuation(0.4);
     light.quadraticAttenuation(0.01);
 
     disappear();
-    velocidade = VELOCIDADE_BALA_1;
+    //velocidade = VELOCIDADE_BALA_1;
     bala.generate(Particle::GLOW);
     bala.setAnimationType(Particle::FIRE);
-    bala.color(130,70,20);
+    //bala.color(130,70,20);
     bala.scale(1.25);
 
     spark.load("media/sprites/spark.tga");
     spark.setAnimationType(Particle::FOG);
     spark.color(200,100,40);
     spark.scale(1.0);
-    spark.animationMotionOffset(3.5);
+    spark.animationMotionOffset(3.0);
     spark.stop();
 }
 

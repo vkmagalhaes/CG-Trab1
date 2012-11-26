@@ -8,9 +8,9 @@ Kamehameha::Kamehameha()
 void Kamehameha::setCaracteristicas(){
     int i;
     for(i=0;i<NUM_BALAS;i++){
-        balas[i].scale(2.25);
-        balas[i].body().gravityScale(0.05);
-        balas[i].bala.color(0,0,255);
+        balas[i].scale(2.0);
+        balas[i].body().gravityScale(0.0);
+        balas[i].bala.color(130,70,20);
         balas[i].setVelocidade(VELOCIDADE_BALA_1);
         //balas[i].
         //balas[i].

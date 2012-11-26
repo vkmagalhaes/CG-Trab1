@@ -9,6 +9,7 @@ Caixote::Caixote()
     loadTexture("media/tex/caixote_textura.png");
     loadNormalMap("media/tex/caixote_normal.png");
     texture().scale(1);
+    staticBody();
 }
 
 void Caixote::insertCenario(Scenario &cenario){

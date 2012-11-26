@@ -20,4 +20,5 @@ void Obstaculos::insertCenario(Scenario &cenario){
     pos.add(2,-1,0);
     caixote2.position(pos);
 
+
 }

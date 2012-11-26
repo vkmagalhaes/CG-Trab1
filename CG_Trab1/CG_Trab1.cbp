@@ -48,8 +48,12 @@
 		<Unit filename="shader_bin\ocd.shd" />
 		<Unit filename="shader_bin\ocf.shd" />
 		<Unit filename="shader_bin\pho.shd" />
+		<Unit filename="src\Arvore.cpp" />
+		<Unit filename="src\Caixote.cpp" />
 		<Unit filename="src\Cartucho.cpp" />
 		<Unit filename="src\Constantes.h" />
+		<Unit filename="src\Highscore.cpp" />
+		<Unit filename="src\Highscore.h" />
 		<Unit filename="src\Kamehameha.cpp" />
 		<Unit filename="src\MachineGun.cpp" />
 		<Unit filename="src\Municao.cpp" />
@@ -63,7 +67,9 @@
 		<Unit filename="src\Wave.cpp" />
 		<Unit filename="src\Zumbi.cpp" />
 		<Unit filename="src\Zumbi.h" />
+		<Unit filename="src\arvore.h" />
 		<Unit filename="src\bibliotecas.h" />
+		<Unit filename="src\caixote.h" />
 		<Unit filename="src\cartucho.h" />
 		<Unit filename="src\kamehameha.h" />
 		<Unit filename="src\machineGun.h" />

@@ -10,7 +10,7 @@ Player::Player()
     lifebar_empty.scale(1.0,0.5);
     lifebar_empty.position(10 + lifebar_empty.width()/2,10 + lifebar_empty.height()/2);
     activeBody();
-    position(100,5,80);
+    position(100,10,80);
     scale(1.4);
     direction(-0.7,0,1);
 
@@ -28,7 +28,7 @@ Player::Player()
     //LANTERNA
     lanternaLigada = 0;
     lanterna.color(240,170,80);
-    lanterna.intensity(5.0);
+    lanterna.intensity(8.0);
     lanterna.spot();
     lanterna.spotAngle(70);
     lanterna.attenuation(0.2);
@@ -71,7 +71,7 @@ void Player::revive() {
     life = 100;
     lifebar.scale(life/100.0,0.5);
     lifebar.position(10 + lifebar.width()/2,10 + lifebar.height()/2);
-    position(100,0,80);
+    position(120,10,120);
 }
 
 void Player::update(){
