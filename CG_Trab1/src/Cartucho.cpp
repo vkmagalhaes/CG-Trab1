@@ -24,7 +24,7 @@ void Cartucho::update(Player &player){
     } else {
         Text::write(COLUNA_DISPLAY,LINHA1_DISPLAY,"Carregando...");
 
-        if (difftime(time(NULL), chargeStart) >= CHARGING_TIME) recarregar();
+        if (difftime(time(NULL), chargeStart) >= CHARGING_TIME) finishCharge();
     }
 }
 
@@ -40,7 +40,7 @@ void Cartucho::startCharge() {
     chargeStart = time(NULL);
 }
 
-void Cartucho::recarregar(){
+void Cartucho::finishCharge(){
     status = CARTUCHO_PRONTO;
     proximaBala = 0;
 }
@@ -51,4 +51,6 @@ void Cartucho::insertCenario(Scenario &cenario){
         balas[i].insertCenario(cenario);
     }
 }
+
+void Cartucho::setCaracteristicas(){}
 

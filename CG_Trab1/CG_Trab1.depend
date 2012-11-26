@@ -20,7 +20,7 @@
 	<URGE/URGE.h>
 	<iostream>
 
-1353888705 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
+1353904599 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\main.cpp
 	"bibliotecas.h"
 	<iostream>
 	"Constantes.h"
@@ -31,8 +31,10 @@
 	"cartucho.h"
 	"score.h"
 	"obstaculos.h"
+	"kamehameha.h"
+	"machineGun.h"
 
-1353887084 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
+1353922887 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\constantes.h
 	"bibliotecas.h"
 
 1353807287 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.h
@@ -46,19 +48,19 @@
 	<time.h>
 	<list>
 
-1353885869 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
+1353889931 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\zumbi.cpp
 	"Zumbi.h"
 
-1353691712 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
+1353901189 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.cpp
 	"municao.h"
 
-1353798384 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.h
+1353899971 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\municao.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
 	"score.h"
 
-1353886464 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
+1353891923 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.cpp
 	"Player.h"
 
 1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\player.h
@@ -76,17 +78,26 @@
 	"SpawnPoint.h"
 	"Player.h"
 
-1353798384 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.h
+1353901734 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.h
 	"bibliotecas.h"
 	"Constantes.h"
 	"Player.h"
 	"municao.h"
 	"score.h"
 
-1353798384 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
+1353924098 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\cartucho.cpp
 	"cartucho.h"
 
 1353870621 D
+<<<<<<< HEAD
+=======
+
+1353881233 tucho recarrega automaticamente ao acabar
+	"SpawnPoint.h"
+	"bibliotecas.h"
+	"Constantes.h"
+	"Zumbi.h"
+>>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
 
 1353881233 tucho recarrega automaticamente ao acabar
 	"SpawnPoint.h"
@@ -171,7 +182,7 @@
 1353896522 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\score.cpp
 	"score.h"
 
-1353889632 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
+1353889931 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.cpp
 	"obstaculos.h"
 
 1353798387 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\obstaculos.h
@@ -203,8 +214,12 @@
 
 1353808215 
 
+<<<<<<< HEAD
 1353883497 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
 	"SpawnPoint.h"
+=======
+1353872939 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\spawnpoint.cpp
+>>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
 
 1353870621 ore ja ta aceitavel
 
@@ -223,7 +238,14 @@
 
 1353810721 e com suspiro aumentando a dificuldade
 
+<<<<<<< HEAD
 1353870621 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
+=======
+1353874273 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\spawnpoint.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"Zumbi.h"
+>>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
 
 1353779266 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\frameratemonitor.cpp
 	"frameRateMonitor.h"
@@ -237,6 +259,7 @@
 
 1353881233 t.h"
 
+<<<<<<< HEAD
 1353898875 source:c:\users\vinicius\documents\github\cg-trab1\cg_trab1\src\highscore.cpp
 	"Highscore.h"
 
@@ -246,4 +269,30 @@
 	"score.h"
 	<iostream>
 	<fstream>
+=======
+1353902597 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\arma.cpp
+	"Arma.h"
+
+1353902597 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\arma.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"Cartucho.h"
+	"Player.h"
+
+1353924636 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\kamehameha.cpp
+	"kamehameha.h"
+
+1353897328 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\kamehameha.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"cartucho.h"
+
+1353922887 source:c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\machinegun.cpp
+	"machineGun.h"
+
+1353898513 c:\users\filipe\documents\github\cg-trab1\cg_trab1\src\machinegun.h
+	"bibliotecas.h"
+	"Constantes.h"
+	"cartucho.h"
+>>>>>>> Mais de uma arma (COM PROBLEMA BIZARRO)
 

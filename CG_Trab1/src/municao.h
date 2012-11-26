@@ -14,13 +14,15 @@ class Municao : public Generic
         ParticleEmitter spark;
         int timer;
         Light light;
-
+        void setVelocidade(float speed);
         Municao();
         void act();
         int collide(Object &other);
         void disparar(Player &player);
         void disappear();
         void insertCenario(Scenario &cenario);
+    private:
+        float velocidade;
 };
 
 #endif // MUNICAO_H

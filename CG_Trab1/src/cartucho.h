@@ -15,10 +15,12 @@ class Cartucho
         void disparar(Player &player);
         void startCharge();
         Municao* getBalas();
-        void recarregar();
+        void finishCharge();
         void insertCenario(Scenario &cenario);
-    private:
+        virtual void setCaracteristicas();
         Municao balas[NUM_BALAS];
+    private:
+
         int proximaBala;
         time_t chargeStart;
         int status;

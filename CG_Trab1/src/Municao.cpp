@@ -5,10 +5,10 @@ Municao::Municao()
     sphere();
     changeBoundingVolume(Solid::SPHERE);
     label(LABEL_MUNICAO);
-    scale(1.0);
-    body().gravityScale(0.0);
+    //scale(1.0);
+    //body().gravityScale(0.0);
     body().damping(0.0);
-
+    velocidade = 80.0;
     light.color(255,180,60);
     light.intensity(5.0);
     light.attenuation(0.4);
@@ -18,7 +18,7 @@ Municao::Municao()
 
     bala.generate(Particle::GLOW);
     bala.setAnimationType(Particle::FIRE);
-    bala.color(130,70,20);
+    //bala.color(130,70,20);
     bala.scale(1.25);
 
     spark.load("media/sprites/spark.tga");
@@ -55,12 +55,12 @@ int Municao::collide(Object &other)
 
 void Municao::disparar(Player &player)
 {
-    timer = 40;
+    timer = DURACAO_BALA_1;
     light.intensity(float(timer)*0.0715);
     bala.start();
     activeBody();
     position() = player.position();
-    velocity() = player.direction()* VELOCIDADE_BALA;
+    velocity() = player.direction()* velocidade;
 }
 
 void Municao::disappear()
@@ -80,3 +80,6 @@ void Municao::insertCenario(Scenario &cenario){
     cenario.insert(bala);
 }
 
+void Municao::setVelocidade(float speed){
+    velocidade = speed;
+}
