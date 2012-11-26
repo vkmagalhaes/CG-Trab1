@@ -15,8 +15,8 @@ Player::Player()
     direction(-0.7,0,1);
 
     //changeKey("Forward", Input::Keyboard::UP);
-    //changeKey("Left", Input::Keyboard::LEFT);
-    //changeKey("Right", Input::Keyboard::RIGHT);
+    changeKey("Strafe Left", Input::Keyboard::LEFT);
+    changeKey("Strafe Right", Input::Keyboard::RIGHT);
     //changeKey("Back", Input::Keyboard::DOWN);
 
     label(LABEL_PLAYER);
